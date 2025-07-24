@@ -5,7 +5,9 @@
 layout: single
 author_profile: false
 ---
-This project explores the use of quantum machine learning to predict rectal cancer outcomes by building a Variational Quantum Classifier trained on clinical and MRI data from ~50 patients. It demonstrates the application of quantum-enhanced models on small-scale, high-impact medical datasets.
+This project explores the use of quantum machine learning to predict rectal cancer outcomes by building a Variational Quantum Classifier trained on clinical and MRI data from ~50 patients. 
+
+It demonstrates the application of quantum-enhanced models on small-scale, high-impact medical datasets.
 
 Complex numbers are numbers with a *real component* and an *imaginary component*, in the form \\(a+bi\\), where a and b are **real numbers** and i is the **imaginary unit**. 
 
