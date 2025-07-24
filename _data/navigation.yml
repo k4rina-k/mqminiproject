@@ -5,9 +5,11 @@ main:
   #   url: /categories/
   # - title: "Tags"
   #   url: /tags/
+  # - title: "About"
+  #   url: /about/
   - title: "Background"
     url: /background/
   - title: "Methodology"
     url: /methodology/ 
-  - title: "About"
-    url: /about/
+  - title: "Goals"
+    url: /goals/ 
