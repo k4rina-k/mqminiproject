@@ -7,5 +7,7 @@ main:
   #   url: /tags/
   - title: "Background"
     url: /background/
+  - title: "Methodology"
+    url: /methodology/ 
   - title: "About"
     url: /about/
