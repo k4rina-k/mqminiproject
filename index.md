@@ -5,6 +5,7 @@
 layout: single
 author_profile: false
 ---
+One- to two-sentence statement of the Project Idea.
 
 Complex numbers are numbers with a *real component* and an *imaginary component*, in the form \\(a+bi\\), where a and b are **real numbers** and i is the **imaginary unit**. 
 
