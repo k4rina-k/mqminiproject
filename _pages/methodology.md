@@ -1,7 +1,7 @@
 
 ---
-permalink: /methodology/
-title: "Methodology"
+permalink: /toolstech/
+title: "Tools & Techniques"
 ---
 
 A Tools/Techniques section that at minimum talks about the Mathematics areas/tools/techniques that are related to this topic. Optional: Section would discuss what tools you would use to undertake the project (think about the math concepts and hands-on techniques you’ve learned)
