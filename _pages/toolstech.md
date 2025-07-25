@@ -19,7 +19,12 @@ The foundation of this research rests on key mathematical and quantum mechanical
 
 From MathQuantum, I developed a strong conceptual grounding in:
 
-**Qubits and Superposition** – fundamental units of quantum and classical information
+**Qubits and Superposition:** 
+The qubit, or quantum bit, is the basic unit of quantum information. Unlike classical bits (0 or 1), a qubit can exist in a superposition:
+$$
+|\psi\rangle = \alpha|0\rangle + \beta|1\rangle \quad \text{where} \quad |\alpha|^2 + |\beta|^2 = 1
+$$
+In this project, each input clinical feature is mapped onto a qubit via rotation gates, creating superpositions that encode probabilistic behavior and uncertainty in medical variables.
 
 Superposition and the Bloch Sphere – visualizing quantum states as points on a sphere and encoding features as rotations
 
