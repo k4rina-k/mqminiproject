@@ -26,7 +26,7 @@ $$
 In this project, each input clinical feature is mapped onto a qubit via rotation gates, creating superpositions that encode probabilistic behavior and uncertainty in medical variables.
 
 ### **Bloch Sphere:**
-!(https://miro.medium.com/v2/resize:fit:500/1*ZtLUJ7OJJ-mtn5VvBJvUuA.png)
+![bloch sphere](https://miro.medium.com/v2/resize:fit:500/1*ZtLUJ7OJJ-mtn5VvBJvUuA.png)
 
 I learned how qubit states can be represented as points on the Bloch sphere, a geometric visualization of pure states. This is particularly important when performing angle encoding, where a normalized clinical variable $$x \in [0, 1]$$ is mapped onto a rotation:
 $$
@@ -46,6 +46,8 @@ $$
 In a VQC, entangling gates are used to model interactions between clinical features (like tumor stage and lymphovascular invasion), potentially capturing relationships that classical models could miss.
 
 ### **X Gate (Pauli-X):**
+![pauli-x gate rotation](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.quera.com%2Fglossary%2Fpauli-x-gate&psig=AOvVaw3glFhZ36R7ej9lehYbj7QP&ust=1753546389811000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCOjOhr-z2I4DFQAAAAAdAAAAABAE)
+
 The Pauli-X gate is the quantum analog of a classical NOT gate, flipping a qubit state:
 $$
 X|0\rangle = |1\rangle, \quad X|1\rangle = |0\rangle
