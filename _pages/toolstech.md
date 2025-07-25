@@ -19,6 +19,7 @@ This project combines mathematical modeling, quantum computing, and biomedical d
 ### **Qubits and Superposition:** 
 
 The qubit, or quantum bit, is the basic unit of quantum information. Unlike classical bits (0 or 1), a qubit can exist in a superposition:
+
 $$
 |\psi\rangle = \alpha|0\rangle + \beta|1\rangle \quad \text{where} \quad |\alpha|^2 + |\beta|^2 = 1
 $$
@@ -29,6 +30,7 @@ In this project, each input clinical feature is mapped onto a qubit via rotation
 <p align="center"><img src="https://miro.medium.com/v2/resize:fit:500/1*ZtLUJ7OJJ-mtn5VvBJvUuA.png" width="400"></p>
 
 I learned how qubit states can be represented as points on the Bloch sphere, a geometric visualization of pure states. This is particularly important when performing angle encoding, where a normalized clinical variable $$x \in [0, 1]$$ is mapped onto a rotation:
+
 $$
 |\psi(x)\rangle = RY(\theta = x \cdot \pi) \, |0\rangle
 $$
@@ -49,6 +51,7 @@ In a VQC, entangling gates are used to model interactions between clinical featu
 <p align="center"><img src="https://cdn.prod.website-files.com/643d2eea03135260bdaca209/68065fdd27cfbe228f425112_AD_4nXfSy1GGu5MpbQ-w1xCSEWRs_biqL8hsLv0K4tQVQNo7ZqtvG7_yx1iWO7chp0WSzWn6-K1i7Y_QGNkciJynh0TD-Pwqp7GUCeRrxvreOdMrplqZqKKXqcRed_XegAwaJ6fhLbFD.png" width="400"></p>
 
 The Pauli-X gate is the quantum analog of a classical NOT gate, flipping a qubit state:
+
 $$
 X|0\rangle = |1\rangle, \quad X|1\rangle = |0\rangle
 $$
