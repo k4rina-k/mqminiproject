@@ -1,4 +1,3 @@
-
 ---
 permalink: /toolstech/
 title: "Tools & Techniques"
