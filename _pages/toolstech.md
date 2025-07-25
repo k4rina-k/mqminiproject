@@ -26,6 +26,7 @@ $$
 In this project, each input clinical feature is mapped onto a qubit via rotation gates, creating superpositions that encode probabilistic behavior and uncertainty in medical variables.
 
 ### **Bloch Sphere:**
+!(https://miro.medium.com/v2/resize:fit:500/1*ZtLUJ7OJJ-mtn5VvBJvUuA.png)
 
 I learned how qubit states can be represented as points on the Bloch sphere, a geometric visualization of pure states. This is particularly important when performing angle encoding, where a normalized clinical variable $$x \in [0, 1]$$ is mapped onto a rotation:
 $$
