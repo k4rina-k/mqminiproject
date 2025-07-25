@@ -17,8 +17,7 @@ Check out this video to see how QML compares to classical ML:
 
 In this continuation project, I aim to build a Variational Quantum Classifier (VQC) trained on a subset of features from the same patient dataset to explore whether QML offers deeper insight or better performance than classical statistical approaches.
 
-A study by Mari et al. (2020) demonstrated the use of hybrid classical-quantum neural networks, including Variational Quantum Classifiers, on clinical data from the UCI Breast Cancer dataset. By training quantum circuits on a reduced feature set, it was shown that quantum models can achieve strong performance even with limited data, highlighting the potential of VQCs for small-scale biomedical prediction tasks like mine. This supports the feasibility of applying VQCs to my rectal cancer dataset for both outcome prediction and feature relevance analysis.
+A study by Mari et al. (2020), [Transfer learning in hybrid classical-quantum neural networks](https://quantum-journal.org/papers/q-2020-10-09-340/pdf/),  demonstrated the use of hybrid classical-quantum neural networks, including Variational Quantum Classifiers, on clinical data from the UCI Breast Cancer dataset. By training quantum circuits on a reduced feature set, it was shown that quantum models can achieve strong performance even with limited data, highlighting the potential of VQCs for small-scale biomedical prediction tasks like mine. This supports the feasibility of applying VQCs to my rectal cancer dataset for both outcome prediction and feature relevance analysis.
 
-https://quantum-journal.org/papers/q-2020-10-09-340/pdf/
 This section should also include a resource/cited/reference Video to complement the text
 This section should include at least 2 References
