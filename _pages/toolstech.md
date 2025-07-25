@@ -19,36 +19,48 @@ The foundation of this research rests on key mathematical and quantum mechanical
 From MathQuantum, I developed a strong conceptual grounding in:
 
 **Qubits and Superposition:** 
+
 The qubit, or quantum bit, is the basic unit of quantum information. Unlike classical bits (0 or 1), a qubit can exist in a superposition:
 $$
 |\psi\rangle = \alpha|0\rangle + \beta|1\rangle \quad \text{where} \quad |\alpha|^2 + |\beta|^2 = 1
 $$
+
 In this project, each input clinical feature is mapped onto a qubit via rotation gates, creating superpositions that encode probabilistic behavior and uncertainty in medical variables.
 
-Superposition and the Bloch Sphere – visualizing quantum states as points on a sphere and encoding features as rotations
+**Bloch Sphere:**
 
-Entanglement and Interference – allowing qubits to represent relationships between clinical variables that classical models struggle with
+I learned how qubit states can be represented as points on the Bloch sphere, a geometric visualization of pure states. This is particularly important when performing angle encoding, where a normalized clinical variable $$x \in [0, 1]$$ is mapped onto a rotation:
+$$
+|\psi(x)\rangle = RY(\theta = x \cdot \pi) \, |0\rangle
+$$
 
-Measurement and Error Correction – critical for extracting information from quantum circuits while addressing noise
+This encoding translates data into **quantum amplitudes**, which are then manipulated and entangled in the circuit. The Bloch sphere helps visualize how patient data "moves" through quantum space and evolves.
 
-Applying Quantum Gates – including the X-gate to flip qubit states and create complex superpositions
+**Entanglement:**
+Entanglement allows two or more qubits to share information in a non-classical way. For example, after applying a **CNOT gate** to two qubits, their states become correlated:
+$$
+|\psi\rangle = \frac{1}{\sqrt{2}} (|00\rangle + |11\rangle)
+$$
+
+In a VQC, entangling gates are used to model interactions between clinical features (like tumor stage and lymphovascular invasion), potentially capturing relationships that classical models could miss.
+
+**X Gate (Pauli-X):**
+The Pauli-X gate is the quantum analog of a classical NOT gate, flipping a qubit state:
+$$
+X|0\rangle = |1\rangle, \quad X|1\rangle = |0\rangle
+$$
+
+X gates are used within ansatz circuits to construct complex superpositions and to flip encoded medical data across axes of the Bloch sphere. This contributes to building expressive decision boundaries in the classification process.
 
 These concepts are directly applied in building, simulating, and training the quantum model.
 
-⚙️ Software Tools & Implementation
 To apply these mathematical concepts and quantum techniques, I will use:
 
-Python – for preprocessing and interfacing with quantum backends
+**Python:** for preprocessing and interfacing with quantum backends
 
-Qiskit – to design quantum circuits, encode features using rotation gates (e.g., RY), and simulate quantum measurements
+**Qiskit:** to design quantum circuits, encode features using rotation gates, and simulate quantum measurements. 
 
-Qiskit Machine Learning – to build and train a Variational Quantum Classifier
+**Qiskit Machine Learning:** to build and train a Variational Quantum Classifier
 
-Scikit-learn & Pandas – to split data, normalize features, and benchmark against classical models
+**Matplotlib & Qiskit Visualizations:** for rendering Bloch spheres, quantum circuits, and outcome comparisons
 
-Matplotlib & Qiskit Visualizations – for rendering Bloch spheres, quantum circuits, and outcome comparisons
-
-🛠️ Applied Experience
-In my prior research, I applied statistical models to a real clinical dataset of 55 rectal cancer patients. I identified variables like lymph node involvement and clinical M-stage as significant predictors of outcomes. This experience taught me how to handle small, high-dimensional medical data—perfectly suited for quantum methods like VQC, which are optimized for low-data, high-complexity tasks.
-
-This project applies both classical and quantum mathematical thinking to develop a working prototype of a cancer prediction model that explores whether quantum models can offer new insight or predictive power in a real-world clinical setting.
