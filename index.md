@@ -10,7 +10,7 @@ author_profile: false
 This project explores the use of quantum machine learning to predict rectal cancer outcomes by building a Variational Quantum Classifier trained on clinical and MRI data from ~50 patients. 
 
 ## <p align="center">It demonstrates the application of quantum-enhanced models on small-scale, high-impact medical datasets.</p>
-<img src="https://media.tenor.com/H-I0vC5AM5kAAAAM/entanglement-quantum-entanglement.gif" width="400">
+<p align="center"><img src="https://media.tenor.com/H-I0vC5AM5kAAAAM/entanglement-quantum-entanglement.gif" width="400"></p>
 
 
 
