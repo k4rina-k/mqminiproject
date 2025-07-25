@@ -3,8 +3,6 @@ permalink: /toolstech/
 title: "Tools & Techniques"
 ---
 
-A Tools/Techniques section that at minimum talks about the Mathematics areas/tools/techniques that are related to this topic. Optional: Section would discuss what tools you would use to undertake the project (think about the math concepts and hands-on techniques you’ve learned)
-
 This project combines mathematical modeling, quantum computing, and biomedical data analysis to explore rectal cancer outcome prediction through quantum machine learning.
 
 The foundation of this research rests on key mathematical and quantum mechanical principles, many of which I learned through the MathQuantum program:
@@ -37,7 +35,9 @@ $$
 This encoding translates data into **quantum amplitudes**, which are then manipulated and entangled in the circuit. The Bloch sphere helps visualize how patient data "moves" through quantum space and evolves.
 
 **Entanglement:**
+
 Entanglement allows two or more qubits to share information in a non-classical way. For example, after applying a **CNOT gate** to two qubits, their states become correlated:
+
 $$
 |\psi\rangle = \frac{1}{\sqrt{2}} (|00\rangle + |11\rangle)
 $$
