@@ -7,13 +7,7 @@ author_profile: false
 ---
 This project explores the use of quantum machine learning to predict rectal cancer outcomes by building a Variational Quantum Classifier trained on clinical and MRI data from ~50 patients. 
 
-It demonstrates the application of quantum-enhanced models on small-scale, high-impact medical datasets.
+## It demonstrates the application of quantum-enhanced models on small-scale, high-impact medical datasets.
 
-Complex numbers are numbers with a *real component* and an *imaginary component*, in the form \\(a+bi\\), where a and b are **real numbers** and i is the **imaginary unit**. 
 
-It can be helpful to visualize complex numbers on the complex plane:
-![complex plane](https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Euler%27s_formula.svg/250px-Euler%27s_formula.svg.png)
-
-Complex numbers can also be represented in polar form as below:
-[![polar form](https://en.wikipedia.org/wiki/Polar_coordinate_system)
 
