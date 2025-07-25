@@ -8,6 +8,8 @@ title: "References"
 2. Krishnan, K. (2025) Can We Predict Rectal Cancer Outcomes Using Clinical Data? A Comparative Analysis of Different Techniques.
 
 3. Mari A, Bromley TR, Izaac J, Schuld M, Killoran N. Transfer learning in hybrid classical-quantum neural networks. Quantum. 2020;4:340. doi:https://doi.org/10.22331/q-2020-10-09-340
+
+4. Content based on lectures and workshops from the 2025 MathQuantum Fellowship
    
 
 
