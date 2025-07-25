@@ -9,8 +9,8 @@ main:
   #   url: /about/
   - title: "Background"
     url: /background/
-  - title: "Methodology"
-    url: /methodology/ 
+  - title: "Tools & Techniques"
+    url: /toolstech/ 
   - title: "Goals"
     url: /goals/ 
   - title: "References"
